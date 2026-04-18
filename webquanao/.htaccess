@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Cho phép truy cập trực tiếp vào các tài nguyên tĩnh
+RewriteRule ^(assets|uploads|images|css|js|fonts)/(.*)$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Kết nối trực tiếp đến container OpenAI
+# RewriteRule ^openai/(.*)$ http://openai:5002/$1 [P,L]
+
+# Xử lý các request khác
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+
+# Thiết lập biến môi trường CI_ENV
+SetEnv CI_ENV development
+
+# Bảo vệ file .env
+<Files ".env">
+    Order Allow,Deny
+    Deny from all
+</Files>
+SetEnv CI_ENV development
+SetEnv CI_ENV development
+SetEnv CI_ENV development
+SetEnv CI_ENV development
