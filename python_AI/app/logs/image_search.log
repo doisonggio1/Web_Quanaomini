@@ -1,0 +1,124 @@
+=== Bắt đầu tìm kiếm ảnh ===
+❌ Lỗi xảy ra: Traceback (most recent call last):
+  File "/app/app.py", line 29, in image_search
+    image_file = request.files['image']
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 238, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+=== Bắt đầu tìm kiếm ảnh ===
+❌ Lỗi xảy ra: Traceback (most recent call last):
+  File "/app/app.py", line 31, in image_search
+    image_file.save(image_path)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/datastructures/file_storage.py", line 129, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '/var/www/html/upload/search/211.png'
+
+=== Bắt đầu tìm kiếm ảnh ===
+❌ Lỗi xảy ra: Traceback (most recent call last):
+  File "/app/app.py", line 31, in image_search
+    image_file.save(image_path)
+  File "/usr/local/lib/python3.10/site-packages/werkzeug/datastructures/file_storage.py", line 129, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '/app/upload/212.png'
+
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/213.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['product\\ao-so-mi-nu-vien-co-hoa-31.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'product\\ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'product\\ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'product\\ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/213.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/214.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['product\\ao-so-mi-nu-vien-co-hoa-31.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'product\\ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'product\\ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'product\\ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/214.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/215.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['product\\ao-so-mi-nu-vien-co-hoa-31.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'product\\ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'product\\ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'product\\ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'product\\ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'product\\ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/215.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/217.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-so-mi-nu-vien-co-hoa-31.jpg', 'ao-so-mi-nu-vien-co-hoa-3.jpg', 'ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/217.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/3.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'ao-gia-dinh-AG0554.jpg', 'ao-gia-dinh-AG0560-3.jpg', 'so-mi-nam-ngan-tay-cao-cap-kieu-dang-han-quoc-1m4G3-8aLJTO_simg_d0daf0_800x1200_max.jpg', 'ao-vay-gia-dinh-ag0515-1m4G3-4UKwpv_simg_d0daf0_800x1200_max.jpg', 'ao-gia-dinh-AG0560-1.jpg', 'quan-short-kaki-nam-1m4G3-sexFoa_simg_d0daf0_800x1200_max.jpg', 'ao-gia-dinh-AG0554-3.jpg', 'somi1.png', 'somi2.png']
+Đã xóa ảnh: /app/upload/3.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/2.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-so-mi-nu-vien-co-hoa-31.jpg', 'ao-so-mi-nu-vien-co-hoa-3.jpg', 'ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/2.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/2.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-so-mi-nu-vien-co-hoa-31.jpg', 'ao-so-mi-nu-vien-co-hoa-3.jpg', 'ao-kieu-cong-so-a0122-1m4G3-vS6ei3_simg_d0daf0_800x1200_max.png', 'ao-thu-ngua-mini-1m4G3-9f6f25_simg_d0daf0_800x1200_max.jpg', 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-PP5C91_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl1.jpg', 'ao-so-mi-nu-vien-co-hoa-3dl.jpg', 'ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3d.jpg']
+Đã xóa ảnh: /app/upload/2.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/4.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-x9hhml.jpg', 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-xL4zQp.jpg', 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-BSZiod.jpg', 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-ZyFQ9v_simg_d0daf0_800x1200_max.jpg', 'so-mi-nam-ngan-tay-cao-cap-kieu-dang-han-quoc-1m4G3-8aLJTO_simg_d0daf0_800x1200_max.jpg', 'ao-kieu-cong-so-a0122-1m4G3-ZebjMN_simg_d0daf0_800x1200_max.png', 'ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-short-nam-qs43-1m4G3-JsGgBd_simg_d0daf0_800x1200_max.jpg', 'cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-63841e_simg_d0daf0_800x1200_max.jpg', 'ao-thun-ao-phong-nu-hoa-tiet-chu-roma.jpg']
+Đã xóa ảnh: /app/upload/4.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/4.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-x9hhml.jpg', 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-xL4zQp.jpg', 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-BSZiod.jpg', 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-ZyFQ9v_simg_d0daf0_800x1200_max.jpg', 'so-mi-nam-ngan-tay-cao-cap-kieu-dang-han-quoc-1m4G3-8aLJTO_simg_d0daf0_800x1200_max.jpg']
+Đã xóa ảnh: /app/upload/4.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/5.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-7ec3c2_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-nam-lich-lam-1m4G3-NvjQo7_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-nam-lich-lam-1m4G3-tyzFof_simg_d0daf0_800x1200_max.png', 'quan-kaki-nam-lich-lam-1m4G3-uSjiJP_simg_d0daf0_800x1200_max.jpg', 'cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-3e0554_simg_d0daf0_800x1200_max.jpg']
+Đã xóa ảnh: /app/upload/5.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/6.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['quan-short-kaki-nam-1m4G3-iKaEX7_simg_d0daf0_800x1200_max.jpg', 'quan-short-kaki-nam-1m4G3-sexFoa_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-nam-lich-lam-1m4G3-tyzFof_simg_d0daf0_800x1200_max.png', 'quan-kaki-short-nam-qs43-1m4G3-JsGgBd_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-short-nam-qs43-1m4G3-Czuekh_simg_d0daf0_800x1200_max.jpg']
+Đã xóa ảnh: /app/upload/6.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/Screenshot_2025-03-25_231427.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tên ảnh kết quả: ['combo-dam-kem-ao-khoac-choang-thoi-trang-th08603-gs195-1m4G3-FWKQKq.jpg', 'combo-dam-kem-ao-khoac-choang-thoi-trang-th08603-gs195-1m4G3-1SqJve.jpg', 'dam-maxi-phoi-ren-cao-cap-1m4G3-sh6ofY_simg_d0daf0_800x1200_max.jpg', 'hang-nhap-so-mi-nu-co-tru-that-no-sm1.jpg', 'hang-nhap-so-mi-nu-co-tru-that-no-sm125-1.jpg']
+Đã xóa ảnh: /app/upload/Screenshot_2025-03-25_231427.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/Screenshot_2025-05-23_203141.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tải vector ảnh thành công.
+Tên ảnh kết quả: ['ao-kieu-han-quoc-v0040-1m4G3-8352b3_simg_d0daf0_800x1200_max.jpg', 'ao-so-mi-nu-vien-co-hoa-3.jpg', 'ao-so-mi-nu-vien-co-hoa-31.jpg', 'ao-kieu-han-quoc-v0040-1m4G3-131527_simg_d0daf0_800x1200_max.jpg', 'bonus1_1.png']
+Đã xóa ảnh: /app/upload/Screenshot_2025-05-23_203141.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/Screenshot_2025-05-23_230437.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tải vector ảnh thành công.
+Tên ảnh kết quả: ['quan-short-kaki-nam-1m4G3-iKaEX7_simg_d0daf0_800x1200_max.jpg', 'quan-short-kaki-nam-1m4G3-sexFoa_simg_d0daf0_800x1200_max.jpg', 'cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-3e0554_simg_d0daf0_800x1200_max.jpg', 'quan-kaki-nam-lich-lam-1m4G3-tyzFof_simg_d0daf0_800x1200_max.png', 'quan-kaki-short-nam-qs43-1m4G3-Czuekh_simg_d0daf0_800x1200_max.jpg']
+Đã xóa ảnh: /app/upload/Screenshot_2025-05-23_230437.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/Screenshot_2025-05-30_132812.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tải vector ảnh thành công.
+Tên ảnh kết quả: ['combo-dam-doi-pendi-xinh-xan-th08560-1m4G3-mPSYrq.jpg', 'combo-dam-doi-pendi-xinh-xan-th08560-1m4G3-tp7Ma5.jpg', 'combo-dam-doi-pendi-xinh-xan-th08560-1m4G3-Xd5kQ5.jpg', 'combo-dam-doi-pendi-xinh-xan-th08560-1m4G3-GmhUQZ.jpg', 'dam-xoe-phoi-ren-cao-cap-1m4G3-AQuuDj.jpg']
+Đã xóa ảnh: /app/upload/Screenshot_2025-05-30_132812.png
+=== Bắt đầu tìm kiếm ảnh ===
+Ảnh tải lên: /app/upload/Screenshot_2025-06-08_231441.png
+Xử lý ảnh thành công.
+Trích xuất đặc trưng thành công.
+Tải vector ảnh thành công.
+Tên ảnh kết quả: ['ao-so-mi-nu-vien-co-hoa-3dla1.jpg', 'ao-so-mi-nu-vien-co-hoa-3dla.jpg', 'dam-ren-thai-form-dai-1m4G3-918972.jpg', 'bonus1_2.png', 'hang-nhap-so-mi-nu-co-tru-that-no.jpg']
+Đã xóa ảnh: /app/upload/Screenshot_2025-06-08_231441.png

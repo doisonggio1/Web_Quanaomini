@@ -1,0 +1,9 @@
+{
+    "cSpell.enabled": false,
+    "intelephense.diagnostics.undefinedProperties": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.environment.includePaths": [
+        "./stubs"
+    ],
+    "git.ignoreLimitWarning": true,
+}

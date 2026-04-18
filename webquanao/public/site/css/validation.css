@@ -1,0 +1,62 @@
+/* Reset CSS */
+.ngoclan-verification-container * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body */
+.ngoclan-verification-container {
+	font-family: "Arial", sans-serif;
+	text-align: center; /* Căn giữa nội dung theo chiều ngang */
+}
+
+/* Container */
+.ngoclan-verification-container {
+	width: 100%;
+	max-width: 600px; /* Giảm chiều rộng tối đa */
+	margin: 0 auto; /* Căn giữa container */
+	padding: 50px;
+}
+
+/* Card */
+.ngoclan-verification-card {
+	background-color: #fff;
+	border-radius: 10px; /* Giảm độ bo góc */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Giảm độ mờ của bóng */
+	padding: 20px; /* Giảm padding */
+	text-align: center;
+}
+
+/* Icon */
+.ngoclan-verification-icon {
+    display: block;
+	width: 100px; /* Giảm kích thước biểu tượng */
+	height: 100px; /* Giảm kích thước biểu tượng */
+    margin: 10px auto 20px auto;
+}
+
+/* Title */
+.ngoclan-verification-title {
+	font-size: 24px; /* Giảm kích thước tiêu đề */
+	color: #333;
+	margin-bottom: 25px; /* Giảm khoảng cách dưới tiêu đề */
+}
+
+/* Button */
+.ngoclan-verification-button {
+	display: inline-block;
+	padding: 10px 20px; /* Giảm padding cho nút */
+	background-color: #4587F3;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px; /* Giảm kích thước chữ trong nút */
+	transition: background-color 0.2s ease;
+	margin-top: 15px; /* Tạo khoảng cách trên nút */
+}
+
+.ngoclan-verification-button:hover {
+    color:#fff !important;
+	background-color: #0f213d;
+}
